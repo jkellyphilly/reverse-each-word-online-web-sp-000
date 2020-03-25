@@ -1,8 +1,11 @@
-# takes in a string and reverses each word
+# Takes in a string and reverses each word
 def reverse_each_word(input_string)
-  my_return_array = []
-  input_string.split(" ").each do |word|
-    my_return_array << word.reverse
-  end
-  my_return_array.join(" ")
+  # First, try it with the .each method
+  #my_return_array = []
+  #input_string.split(" ").each do |word|
+  #  my_return_array << word.reverse
+  #end
+  #my_return_array.join(" ")
+
+  # now, try it with .collect method
 end
