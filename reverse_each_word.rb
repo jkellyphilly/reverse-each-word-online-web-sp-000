@@ -8,4 +8,5 @@ def reverse_each_word(input_string)
   #my_return_array.join(" ")
 
   # now, try it with .collect method
+  input_string.split(" ").collect {|word| word.reverse}.join(" ")
 end
